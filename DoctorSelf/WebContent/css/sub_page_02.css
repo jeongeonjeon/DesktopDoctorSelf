@@ -1,0 +1,11 @@
+#container { width:95%; max-width:1200px; display:inline-block; margin:0 auto; zoom:1; }
+
+#sub_img_08 {width:100%; margin:20px 0 0 0; float:left; height:600px;  background-color:#f0f0f0;}
+
+
+@media ( max-width: 980px ) {
+ 
+	#container {width:100%; min-width:735px;}
+ 	#sub_img_08{height:1200px;}
+ 	
+ }

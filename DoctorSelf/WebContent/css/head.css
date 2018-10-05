@@ -1,0 +1,60 @@
+#top_bg { background:url("/img/images/top_bg.jpg") repeat-x 0 0;  height:150px;  }
+#top_logo_all {width:100%; margin:0 0 0 0px; float:left;}
+.top_logo  {width:280px; margin:0 0 0 0; position:relative; left:29%; transform:translateX(-50%); float:left;}
+.top_banner_01  {width:163px; margin:0 3% 0 0px; float:left;}
+
+#top_ct_all {width:200px; margin:5px 0 0 0px; float:right;}
+.top_ct {width:200px; margin:0 0 5px 0px; float:right; }
+.top_ct ul {width:200px; margin:0 0 0 0px; float:right;}
+.top_ct li {width:200px; font-size:15px; text-decoration: none; font-weight:bold; margin:0 0 0 0px; padding: 10px 0 0 0;  float:right; text-align:right; }
+
+#menu_btn{display:none;}
+#top_menu_all {width:95%; margin:5px 0 0 0px; float:left;}
+#top_menu_all li:first-child{display:none;}
+.top_menu_01 {width:20%; margin:10px 0 0 0px; float:left; font-size:20px; text-decoration: none; font-weight:bold; color:#ffffff; text-align:center; }
+.top_menu_02 {width:20%; margin:10px 0 0 0px; float:left; font-size:20px; text-decoration: none; font-weight:bold; color:#ffffff;  text-align:center; }
+.top_menu_03 {width:20%; margin:10px 0 0 0px; float:left; font-size:20px; text-decoration: none; font-weight:bold; color:#ffffff;  text-align:center; }
+.top_menu_04 {width:20%; margin:10px 0 0 0px; float:left; font-size:20px; text-decoration: none; font-weight:bold; color:#ffffff; text-align:center; }
+.top_menu_05 {width:20%; margin:10px 0 0 0px; float:left; font-size:20px; text-decoration: none; font-weight:bold; color:#ffffff;  text-align:center; }
+
+.top_menu_01 a { color:#ffffff;}
+.top_menu_02 a {color:#ffffff; }
+.top_menu_03 a {color:#ffffff;}
+.top_menu_04 a {color:#ffffff; }
+.top_menu_05 a {color:#ffffff;}
+
+.top_menu_01 a:hover { color:#fff000;}
+.top_menu_02 a:hover {color:#fff000; }
+.top_menu_03 a:hover {color:#fff000;}
+.top_menu_04 a:hover {color:#fff000; }
+.top_menu_05 a:hover {color:#fff000;}
+
+ @media ( max-width: 980px ) {
+
+/* search */
+ .hd_sch_wr {width: 205px;}
+ #hd_sch{height:45px;}
+ #hd_sch #sch_stx{height: 40px; width: 170px;}
+ #hd_sch #sch_submit{height:40px; width:30px;}
+
+ .top_ct ul{width:100%; height:100%;}
+ .top_ct li{width:100%; height:100%; font-size:20px; }
+
+ .top_banner_01>img{display:none;}
+ #menu_btn{display:block; background:white; border:0;}
+ #menu_btn img{width: 120px; position: relative; top: 5px; left: 5px; height: 120px;}
+ #top_bg{min-width:735px; background: white;}
+
+ .top_logo  {width:280px; height:115px; margin:0 0 0 0; visibility:visible; /* left:40%; transform:translateX(-40%); */ transform:translateX(-80%); float:left;}
+ .top_logo img{height:100%;}
+ 
+ #top_menu_all{ display: none; position: fixed; background: #444; z-index: 999; width: 100%; clear: both; height: 100%; opacity: 0.98;}
+ #top_menu_all li:first-child{display:block; border:0; text-align: right;}
+ #top_menu_all li:first-child button{border:none; background:inherit;}
+ #top_menu_all li:first-child img{width:80px; height:80px;}
+ #menu_cancle_btn{background:inherit; border:0;}
+ #top_menu_all li{ clear: both; font-size: 35pt; width: 95%; margin: 10px 2.5% 0 2.5%; border-bottom: 1px solid #888; text-align: left;}
+ #top_menu_all li>a{display:inline-block; width:100%; height:100%; padding:35px 25px;}
+ 
+ 
+}

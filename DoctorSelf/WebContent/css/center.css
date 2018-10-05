@@ -1,0 +1,21 @@
+#head { position:relative; text-align:center; width:95%; margin:0px auto;  }
+#container { width:95%; max-width:1200px; display:inline-block; margin:0 auto; zoom:1; }
+
+
+#center_bg  {  width:100%; height:550px;}
+#center{ width:100%; height:inherit; }
+#center_ta {height:inherit; background-size:cover; width:100%; margin:0 auto; *zoom:1; }
+#center_ta div{height: inherit;width:100%;}
+#wrapper{ }
+#container_wr { width:100%; text-align:center; margin:30px auto; *zoom:1; }
+#container_wr:after {display:block;visibility:hidden;clear:both; content:""}
+
+
+ @media ( max-width: 980px ){
+ 
+ 	#head, #container {width:100%; min-width:735px;}
+
+ 	#center_bg{position:relative; width:84%; min-width:735px; height:600px;}
+ 	
+}
+

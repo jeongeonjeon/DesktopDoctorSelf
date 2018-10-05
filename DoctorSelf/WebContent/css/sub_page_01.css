@@ -1,0 +1,12 @@
+#container { width:95%; max-width:1200px; display:inline-block; margin:0 auto; zoom:1; }
+
+#sub_img_07 {width:100%; margin:20px 0 0 0; padding:40px 100px; float:left; height:900px;  background-color:#f0f0f0;}
+#sub_img_07 p {font-size:23pt; text-align:left; font-family: 'Hi Melody', cursive;}
+
+
+@media ( max-width: 980px ) {
+ 	#container {width:100%; min-width:735px;}
+ 	
+ 	#sub_img_07{height:1250px; padding:70px;}
+ 	#sub_img_07 p {font-size:29pt; text-align: justify; }
+ }
